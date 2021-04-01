@@ -1,0 +1,18 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Home Page
+{% endblock %}
+
+{% block content %}
+
+<h1>Home Page</h1>
+<br>
+<img src="{% static 'images/emp1.png' %}" alt="My image" width="500px" height="300px"/>
+<br>
+
+<div>
+    <p style="text-align:left; font-family:calibri; padding-left:20px; font-size:20px;">This is a Employee management project using Python, HTML,CSS , Bootstrap and Django framework. Here one can add and delete employee data and departments. The main objective of this program is to search the employee on the basis of their address.</p>
+</div>
+{% endblock %}
